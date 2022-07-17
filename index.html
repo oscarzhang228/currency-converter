@@ -11,6 +11,9 @@
   <body>
     <header><h1>Currency Converter</h1></header>
     <main>
+      <h1>From</h1>
+      <div id="from-box">
+        <input type="number" placeholder="0"/>
       <select id="from">
         <option value="AED">AED</option>
         <option value="ARS">ARS</option>
@@ -65,7 +68,10 @@
         <option value="VND">VND</option>
         <option value="ZAR">ZAR</option>
       </select>
-      <input type="number" id="from-amount" placeholder="0" value="1" />
+      </div>
+      
+      
+      <h1>To</h1>
       <select id="to">
         <option value="AED">AED</option>
         <option value="AFN">AFN</option>
@@ -123,9 +129,9 @@
         <option value="USD">USD</option>
         <option value="UYU">UYU</option>
       </select>
-      <input type="number" id="to-amount" placeholder="0" value="1" />
-
       <button id="convert">Convert</button>
+      <h2 id="result">100</h1>
+        <footer><h1>Made by Oscar Zhang </h1></footer>
     </main>
   </body>
 </html>
