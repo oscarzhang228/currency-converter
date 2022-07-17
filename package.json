@@ -1,0 +1,24 @@
+{
+  "name": "currency-converter",
+  "version": "1.0.0",
+  "description": "This is a website which uses the exchange rates api in order to convert one currency to another.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscarzhang228/currency-converter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oscarzhang228/currency-converter/issues"
+  },
+  "homepage": "https://github.com/oscarzhang228/currency-converter#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
